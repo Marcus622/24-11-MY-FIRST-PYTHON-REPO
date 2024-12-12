@@ -12,3 +12,17 @@ zahl1 = int(input("Gib die erste Zahl ein: "))
 zahl2 = int(input("Gib die zweite Zahl ein: "))
 
 print(f"Das Ergebnis beider Zahlen lautet: {zahl1+zahl2}")
+
+
+
+# Aufgabe zur If-Bedingung
+
+zahl3 = int(input("Gib eine beliebige Zahl ein: "))
+
+
+if zahl3 >=0:
+    print("Die angegebene Zahl ist positiv")
+
+else:     
+    print("Die angegebene Zahl ist negativ")
+    
