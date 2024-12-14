@@ -9,4 +9,8 @@ print(x)
 # Übung Email mit Rirmenname als Variable
 
 firmenname = "Techstarter"
-print("Hallo Liebes Team von " + firmenname + ", ich möchte gerne mit euch in der Firma " + firmenname + " arbeiten. Ich würde mich über eine Antwort freuen.") 
+Berufsfeld = "Data Analyst"
+Weiterbildungsdauer = "6 - 2"
+print("Hallo Liebes Team von " + firmenname + ", ich möchte gerne mit euch in der Firma " + firmenname + " arbeiten.  Ich würde mich über eine Antwort freuen.") 
+print("Ich habe eine Weiterbildung zum "+ Berufsfeld +" gemacht.")
+print(Weiterbildungsdauer)
