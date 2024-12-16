@@ -20,3 +20,4 @@ print
 print("Aufgabe 3 Kombination von Operationen")
 print(a > b) # False
 print(a < b) # True
+
