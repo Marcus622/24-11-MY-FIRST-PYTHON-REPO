@@ -10,11 +10,12 @@ def wochentag_berechnen():
         try:
             eingegebenes_datum = datetime.strptime(benutzereingabe, "%Y.%m.%d")
 
-            wochentage = ["Montag, Dienstag, Mittwoch, Donnerstag, Freitag, Samstag, Sonntag"]
+            wochentage = ["Montag", "Dienstag", "Mittwoch", "Donnerstag", "Freitag", "Samstag", "Sonntag"]
             wochentag = wochentage[eingegebenes_datum.weekday()]
 
             print(f"Der Wochentag für das Datum {benutzereingabe} ist: {wochentag}.")
             break
-        except ValueError
+        except ValueError:
+            print("Ungültiges Datum! Bitte gib das Datum im Format JJJJ.MM.DD ein.")
 
 wochentag_berechnen()
