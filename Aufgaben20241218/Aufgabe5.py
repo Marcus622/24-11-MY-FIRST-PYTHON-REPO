@@ -9,7 +9,7 @@ def zeit_in_zukunft():
     aktuelle_zeit = datetime.now()
 
     print('Gib die gewünschte Zeitspanne ein: ')
-    zeitspanne = input("Gib Minuten, Stunden, oder Tagen ein, gefolgt von der Zahl:")
+    zeitspanne = input("Gib eine Zahl, gefolgt von Minuten, Stunden, oder Tagen ein:")
     try:
         anzahl, einheit = zeitspanne.split()
         anzahl = int(anzahl)
