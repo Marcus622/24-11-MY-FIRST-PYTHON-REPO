@@ -1,4 +1,18 @@
+ 
+
+
 # Die Ferien sind in Reichweite
+import datetime
+
+date = datetime.datetime.now()
+print(date)
+
+
+
+
+
+
+
 
 date_today = input("Welcher Tag ist heute (JJJJ.MM.TT)?")
 # Winterferien 2024 2024.12.24-2025.01.01
