@@ -15,7 +15,7 @@ def tage_bis_datum():
         benutzereingabe = input("Gib ein Datum im Format JJJJ.MM.DD ein: ")
 
         try:
-            eingegebenes_datum = datetime.strftime(benutzereingabe, "%Y.%m.%d")
+            eingegebenes_datum = datetime.strptime(benutzereingabe, "%Y.%m.%d")
             differenz = eingegebenes_datum - aktuelles_datum
             print(f"Die Anzahl der Tage bis zum angegebenen Datum beträgt:{differenz.days}")
             break
