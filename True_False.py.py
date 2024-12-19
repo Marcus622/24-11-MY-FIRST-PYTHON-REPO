@@ -1,7 +1,7 @@
 # Aufgabe 1
 
 print("Aufgabe 1 Vergleichsoperationen")
-a = 17
+a = 25
 b = 25
 print("a > b", (a > b))
 print("a < b", (a < b))
