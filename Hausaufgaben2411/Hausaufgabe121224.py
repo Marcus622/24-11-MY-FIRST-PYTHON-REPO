@@ -25,4 +25,3 @@ if zahl3 >=0: # True --> Jump to the next line
 
 else:     
     print("Die angegebene Zahl ist negativ")
-
